@@ -18,3 +18,11 @@ The aim of this project is to develop a low-cost robotic educational plattform b
 * Slamtec's RPLIDAR-A1: http://www.slamtec.com/en/lidar/a1
 * FLOUREON RC Akku 2S 7.4V 2200mAh 35C
 * Matek Systems UBEC Duo FPV Dual BEC UBEC 4A 5V - 12V
+
+
+## Workspace setup
+
+$ mkdir ~/ws
+$ wstool init src https://raw.githubusercontent.com/german-m-garcia/ros-makeblock/master/rosinstall/.rosinstall?token=ADNOJR2ZYFH2GQY6ZZSH4IK5TT2S2
+$ catkin init
+$ catkin build
