@@ -1,0 +1,31 @@
+## .rosinstall
+
+# mk-repositories
+
+- git: {local-name: system_setup, uri: 'git@github.com:german-m-garcia/mk-system-setup.git', version: master}
+- git: {local-name: robot_launch, uri: 'git@github.com:german-m-garcia/mk-launch.git', version: master}
+- git: {local-name: control/odometry, uri: 'git@github.com:german-m-garcia/odometry.git', version: master}
+- git: {local-name: streaming/nimbro_network, uri: 'git@github.com:german-m-garcia/nimbro_network.git', version: master}
+
+## external respositories
+
+# calibration
+
+- git: {local-name: calibration/calibration, uri: 'git@github.com:AndreaCensi/calibration.git', version: master}
+- git: {local-name: calibration/rospy_message_converter, uri: 'git@github.com:uos/rospy_message_converter.git', version: master}
+- git: {local-name: calibration/tuw_marker_detection, uri: 'git@github.com:tuw-robotics/tuw_marker_detection.git', version: kinetic}
+
+# rplidar
+
+- git: {local-name: rplidar_ros, uri: 'git@github.com:tuw-robotics/Slamtec/rplidar_ros.git', version: master}
+
+# google cartographer
+
+- git: {local-name: ceres-solver, uri: 'https://ceres-solver.googlesource.com/ceres-solver.git', version: master}
+- git: {local-name: cartographer_ros, uri: 'git@github.com:googlecartographer/cartographer_ros.git', version: master}
+- git: {local-name: cartographer, uri: 'git@github.com:googlecartographer/cartographer.git', version: master}
+
+
+
+
+
