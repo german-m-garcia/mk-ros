@@ -23,6 +23,9 @@ The aim of this project is to develop a low-cost robotic educational plattform b
 ## Workspace setup
 
 $ mkdir ~/ws
+
 $ wstool init src https://raw.githubusercontent.com/german-m-garcia/ros-makeblock/master/rosinstall/.rosinstall?token=ADNOJR2ZYFH2GQY6ZZSH4IK5TT2S2
+
 $ catkin init
+
 $ catkin build
