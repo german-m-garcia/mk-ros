@@ -1,8 +1,17 @@
 # ros-makeblock #
 
-The aim of this project is to develop a low-cost robotic educational plattform based on Makeblock's mBot Ranger, but which has more advanced sensoric &ndash;e.g. Lidar and cameras&ndash; as well as computational capabilities.
+ros-makeblock is a do-it-yourself project about creating a mobile robotic platform integrated in the ROS environment. The development starts with Makeblock's [mbot Ranger](https://www.makeblock.com/steam-kits/mbot-ranger), a small educational toy robot powered with an Arduino microcontroller that controls different sensors and actuators. Makeblock makes its code open-source and this makes it easy to extend their robot with more sensing and compute capabilities.
+
+
+## ROS ##
+
+The [Robot Operating System](https://www.ros.org/) (ROS) is the standard middleware/development environment in the robotics academic community. A ROS environment consists of nodes that communicate with each other to solve specific tasks. For example, one node reads the data coming from a LIDAR sensor and publishes the point cloud information in a standard way for other nodes to interpret it; at the same time, another node might read this point cloud to elaborate a map of the environment.
 
 ## Hardware components ##
+
+In the original mBot, a set of AA batteries powers the Arduino microcontroller. We will keep the Arduino, but add a single board computer —[Intel's UpBoard](https://up-board.org/up/specifications)— that communicates with it and with new sensors. Therefore, we replaced the set of AA batteries with a more powerful LiPo battery plus a regulator that supplies adequate voltage and amperage to the microcontroller (e.g. 12V) and the single board computer. This is important: you will need to provide 5V and 4A to the UpBoard.
+
+The following is a list of all the components:
 
 * Makeblock's mBot Ranger: https://www.makeblock.com/steam-kits/mbot-ranger
 * Makeblock spare parts:
@@ -11,13 +20,10 @@ The aim of this project is to develop a low-cost robotic educational plattform b
   * pack de estructuras: https://www.makeblock.es/productos/mbot_pack_soportes/
   * pack de vigas: https://www.makeblock.es/productos/pack_vigas_0412/
 
-* Intel ReaSense Robotic Development Kit: https://click.intel.com/intelr-realsensetm-robotic-development-kit-3027.html
-  still available on mouser.de: https://www.mouser.de/ProductDetail/Intel/82634DSRBTDVK?qs=%2Fha2pyFaduhL1asyIi%252BsJmGh%252B15Cb8AKt8hPgHcoa9Ff7dVfBoquFQPflyZAQpToomKNcVqowr27OX8P7dwNlQ%3D%3D
-  
-  
+* Intel AAEON UpBoard: https://up-board.org/up/specifications
 * Slamtec's RPLIDAR-A1: http://www.slamtec.com/en/lidar/a1
-* FLOUREON RC Akku 2S 7.4V 2200mAh 35C
-* Matek Systems UBEC Duo FPV Dual BEC UBEC 4A 5V - 12V
+* LiPo battery: FLOUREON RC Akku 2S 7.4V 2200mAh 35C
+* Double output regulator: Matek Systems UBEC Duo FPV Dual BEC UBEC 4A 5V - 12V
 
 
 ## Workspace setup
