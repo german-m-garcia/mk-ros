@@ -26,6 +26,10 @@ The following is a list of all the components:
 * Double output regulator: Matek Systems UBEC Duo FPV Dual BEC UBEC 4A 5V - 12V
 
 
+## Setting up the UpBoard
+
+You can follow this [instructions](https://idorobotics.com/2016/10/31/getting-started-with-the-intel-realsense-robotics-development-kit-rdk/) to set up the operating system (Ubuntu) and the ROS environment on the UpBoard. Once you have a running Ubuntu on the board, you can jump to the next section, to set up the ROS workspace. At the time I started the development I used Ubuntu 16.04.x LTS and ROS Kinetic. This is by now old, but should not be difficult to upgrade the system to work on ROS Noetic on Ubuntu 20.04.
+
 ## Workspace setup
 
 $ mkdir ~/ws
