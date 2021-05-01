@@ -9,12 +9,6 @@
 
 ## external respositories
 
-# calibration
-
-- git: {local-name: calibration/calibration, uri: 'git@github.com:AndreaCensi/calibration.git', version: master}
-- git: {local-name: calibration/rospy_message_converter, uri: 'git@github.com:uos/rospy_message_converter.git', version: master}
-- git: {local-name: calibration/tuw_marker_detection, uri: 'git@github.com:tuw-robotics/tuw_marker_detection.git', version: kinetic}
-
 # rplidar
 
 - git: {local-name: rplidar_ros, uri: 'git@github.com:tuw-robotics/Slamtec/rplidar_ros.git', version: master}
