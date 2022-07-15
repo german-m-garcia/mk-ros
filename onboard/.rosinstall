@@ -11,7 +11,7 @@
 
 # rplidar
 
-- git: {local-name: rplidar_ros, uri: 'git@github.com:tuw-robotics/Slamtec/rplidar_ros.git', version: master}
+- git: {local-name: rplidar_ros, uri: 'git@github.com:Slamtec/rplidar_ros.git', version: master}
 
 # google cartographer
 
