@@ -5,6 +5,7 @@
 - git: {local-name: system_setup, uri: 'git@github.com:german-m-garcia/mk-system-setup.git', version: master}
 - git: {local-name: robot_launch, uri: 'git@github.com:german-m-garcia/mk-launch.git', version: master}
 - git: {local-name: control/odometry, uri: 'git@github.com:german-m-garcia/odometry.git', version: master}
+- git: {local-name: control/diff_drive, uri: 'git@github.com:merose/diff_drive.git', version: master}
 - git: {local-name: streaming/nimbro_network, uri: 'git@github.com:german-m-garcia/nimbro_network.git', version: master}
 
 ## external respositories
