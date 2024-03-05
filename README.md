@@ -15,11 +15,11 @@ You can follow this [instructions](https://idorobotics.com/2016/10/31/getting-st
 
 ## Workspace setup
 
-Check out this project to some local directory, e.g. ~/ros-makeblock, in order to use the .rosinstall file to set up the ROS workspace:
+Check out this project to some local directory, e.g. ~/ros-makeblock, in order to use the .rosinstall file to set up the ROS workspace. There are two variants, one for the robot on board computer, and one for a computer that remotely controls the robot:
 
 $ mkdir ~/ws
 
-$ wstool init src  ~/ros-makeblock/rosinstall/.rosinstall 
+$ wstool init src  ~/ros-makeblock/onboard/.rosinstall 
 
 $ catkin init
 
