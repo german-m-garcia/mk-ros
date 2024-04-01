@@ -3,6 +3,7 @@
 [mk-ros](https://german-m-garcia.gitbook.io/mk-ros/) is a do-it-yourself project about creating a mobile robotic platform integrated in the ROS environment. The development starts with Makeblock's [mbot Ranger](https://www.makeblock.com/steam-kits/mbot-ranger), a small educational toy robot powered with an Arduino microcontroller that controls different sensors and actuators. Makeblock makes its code open-source and this makes it easy to extend their robot with more sensing and compute capabilities.
 More details of the project can be found on [gitbook](https://german-m-garcia.gitbook.io/mk-ros/).
 
+![](https://github.com/german-m-garcia/mk-ros/tree/master/animations/mk-ros-robot.gif)
 
 ## ROS ##
 
